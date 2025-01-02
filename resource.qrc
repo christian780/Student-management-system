@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/b3.jpg</file>
+        <file>images/blue.jpg</file>
+        <file>images/blue2.jpg</file>
+        <file>images/budget.png</file>
+        <file>images/dashboard.png</file>
+        <file>images/gdpr.png</file>
+        <file>images/managment-software.png</file>
+        <file>images/sett.jpg</file>
+        <file>images/user.png</file>
+        <file>images/use2.jpg</file>
+        <file>images/groups.jpg</file>
+        <file>images/invoice.jpg</file>
+        <file>images/set2.jpg</file>
+        <file>images/set3.png</file>
+        <file>images/nairia.webp</file>
+        <file>images/logo2.png</file>
+        <file>images/Cyber-Security-Logo-PNG.png</file>
+        <file>images/user-pro.webp</file>
+        <file>images/security-icon-7.png</file>
+        <file>images/userprof.png</file>
+        <file>images/admin.png</file>
+        <file>images/student.png</file>
+        <file>images/staff.png</file>
+        <file>images/admin2.png</file>
+        <file>images/register.png</file>
+        <file>images/stureg.webp</file>
+        <file>images/navy.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>images/register.png</file>
+    </qresource>
+</RCC>
