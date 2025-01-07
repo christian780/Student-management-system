@@ -14,20 +14,21 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(255, 255, 255);</string>
+   <string notr="true">
+background-color: qconicalgradient(cx:0.548913, cy:1, angle:0, stop:0 rgba(0, 0, 103, 255), stop:1 rgba(255, 255, 255, 255));</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="Administration" native="true">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>80</y>
-      <width>1080</width>
-      <height>5592405</height>
+      <x>40</x>
+      <y>34</y>
+      <width>1171</width>
+      <height>5592401</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
     <widget class="QLabel" name="label_2">
      <property name="geometry">
@@ -48,88 +49,38 @@
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>80</y>
-       <width>131</width>
-       <height>121</height>
+       <x>70</x>
+       <y>130</y>
+       <width>181</width>
+       <height>161</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(:/images/images/admin2.png);</string>
+      <string notr="true">image: url(:/images/images/adminbut.jpg);
+
+border: 5px solid gray;
+border-radius: 20px;
+</string>
      </property>
      <property name="text">
       <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_3">
+    <widget class="QPushButton" name="dashboardui">
      <property name="geometry">
       <rect>
-       <x>30</x>
-       <y>210</y>
-       <width>111</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#00557f;&quot;&gt;Administrator&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_2">
-     <property name="geometry">
-      <rect>
-       <x>260</x>
-       <y>80</y>
-       <width>131</width>
-       <height>121</height>
+       <x>670</x>
+       <y>130</y>
+       <width>171</width>
+       <height>151</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(:/images/images/staff.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_3">
-     <property name="geometry">
-      <rect>
-       <x>520</x>
-       <y>80</y>
-       <width>131</width>
-       <height>121</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(:/images/images/dashboard.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_5">
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>200</y>
-       <width>111</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#00557f;&quot;&gt;Dashboard&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_4">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>260</y>
-       <width>131</width>
-       <height>121</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(:/images/images/gdpr.png);</string>
+      <string notr="true">image: url(:/images/images/dashb.jpg);
+
+border: 5px solid gray;
+border-radius: 20px;
+</string>
      </property>
      <property name="text">
       <string/>
@@ -138,14 +89,17 @@
     <widget class="QPushButton" name="pushButton_5">
      <property name="geometry">
       <rect>
-       <x>510</x>
-       <y>250</y>
-       <width>131</width>
-       <height>121</height>
+       <x>680</x>
+       <y>390</y>
+       <width>171</width>
+       <height>171</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(:/images/images/invoice.jpg);</string>
+      <string notr="true">image: url(:/images/images/receipt.jpg);
+
+border: 5px solid gray;
+border-radius: 20px;</string>
      </property>
      <property name="text">
       <string/>
@@ -154,30 +108,20 @@
     <widget class="QPushButton" name="pushButton_7">
      <property name="geometry">
       <rect>
-       <x>750</x>
-       <y>240</y>
-       <width>131</width>
-       <height>121</height>
+       <x>910</x>
+       <y>390</y>
+       <width>171</width>
+       <height>161</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(:/images/images/nairia.webp);</string>
+      <string notr="true">image: url(:/images/images/attendance.jpg);
+
+border: 5px solid green;
+border-radius: 20px;</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_8">
-     <property name="geometry">
-      <rect>
-       <x>770</x>
-       <y>370</y>
-       <width>101</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:700; color:#00557f;&quot;&gt;Balance&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label">
@@ -193,125 +137,100 @@
       <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_9">
-     <property name="geometry">
-      <rect>
-       <x>-20</x>
-       <y>0</y>
-       <width>121</width>
-       <height>51</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(:/images/images/logo2.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
     <widget class="QPushButton" name="pushButton_8">
      <property name="geometry">
       <rect>
-       <x>750</x>
-       <y>80</y>
-       <width>131</width>
-       <height>121</height>
+       <x>910</x>
+       <y>130</y>
+       <width>141</width>
+       <height>141</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(:/images/images/student.png);</string>
+      <string notr="true">image: url(:/images/images/profile.jpg);
+
+border: 2px solid gray;
+border-radius: 20px;
+</string>
      </property>
      <property name="text">
       <string/>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_10">
-     <property name="geometry">
-      <rect>
-       <x>770</x>
-       <y>210</y>
-       <width>111</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#00557f;&quot;&gt;Student Info&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_11">
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>380</y>
-       <width>91</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#00557f;&quot;&gt;Invoice&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_12">
-     <property name="geometry">
-      <rect>
-       <x>60</x>
-       <y>390</y>
-       <width>91</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#00557f;&quot;&gt;GDP&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_6">
-     <property name="geometry">
-      <rect>
-       <x>250</x>
-       <y>210</y>
-       <width>151</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#00557f;&quot;&gt;Staff Management&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_6">
      <property name="geometry">
       <rect>
-       <x>250</x>
-       <y>250</y>
-       <width>131</width>
-       <height>121</height>
+       <x>370</x>
+       <y>400</y>
+       <width>181</width>
+       <height>171</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(:/images/images/set3.png);</string>
+      <string notr="true">image: url(:/images/images/set3.png);
+
+border: 5px solid gray;
+border-radius: 20px;</string>
      </property>
      <property name="text">
       <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_13">
+    <widget class="QPushButton" name="stafflogin">
      <property name="geometry">
       <rect>
-       <x>270</x>
-       <y>380</y>
-       <width>91</width>
-       <height>31</height>
+       <x>360</x>
+       <y>130</y>
+       <width>191</width>
+       <height>151</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/images/images/staff login.png);
+
+border: 5px solid gray;
+border-radius: 20px;
+</string>
+     </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:700; color:#00557f;&quot;&gt;settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string/>
      </property>
     </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>400</y>
+       <width>191</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/images/images/result.png);
+
+border: 5px solid gray;
+border-radius: 20px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label_2</zorder>
+    <zorder>pushButton</zorder>
+    <zorder>dashboardui</zorder>
+    <zorder>pushButton_5</zorder>
+    <zorder>pushButton_7</zorder>
+    <zorder>label</zorder>
+    <zorder>pushButton_6</zorder>
+    <zorder>stafflogin</zorder>
+    <zorder>pushButton_8</zorder>
+    <zorder>pushButton_2</zorder>
    </widget>
    <widget class="QWidget" name="widget_2" native="true">
     <property name="geometry">
      <rect>
       <x>110</x>
-      <y>30</y>
+      <y>40</y>
       <width>1080</width>
       <height>51</height>
      </rect>
@@ -321,6 +240,22 @@
 
 </string>
     </property>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/images/images/logo2.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
    </widget>
    <widget class="QTextBrowser" name="textBrowser">
     <property name="geometry">
@@ -339,7 +274,7 @@ hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700; color:#00557f;&quot;&gt;SCHOOL MANAGEMENT SYSTEM&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700; color:#ffffff;&quot;&gt;SCHOOL MANAGEMENT SYSTEM&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>
@@ -352,9 +287,96 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuCalender_Schedule">
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>Calender/Schedule</string>
+     </property>
+     <addaction name="actionCalender"/>
+     <addaction name="actionSchedule"/>
+    </widget>
+    <addaction name="menuCalender_Schedule"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionStaff_Form"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionStaff_Form"/>
+  </widget>
+  <action name="actionExit_2">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionCalender">
+   <property name="text">
+    <string>Calender</string>
+   </property>
+  </action>
+  <action name="actionSchedule">
+   <property name="text">
+    <string>Schedule</string>
+   </property>
+  </action>
+  <action name="actionStaff_Form">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/images/stureg.webp</normaloff>:/images/images/stureg.webp</iconset>
+   </property>
+   <property name="text">
+    <string>Staff Form</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::TextHeuristicRole</enum>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::ApplicationExit"/>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
  <connections/>
 </ui>

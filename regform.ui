@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>512</width>
-    <height>568</height>
+    <height>501</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -51,7 +51,7 @@ background-color: #074e8c;
    <property name="geometry">
     <rect>
      <x>200</x>
-     <y>50</y>
+     <y>60</y>
      <width>251</width>
      <height>41</height>
     </rect>
@@ -176,7 +176,7 @@ border-radius: 10px;
    <property name="geometry">
     <rect>
      <x>18</x>
-     <y>49</y>
+     <y>70</y>
      <width>91</width>
      <height>31</height>
     </rect>
@@ -235,6 +235,35 @@ border-radius: 10px;
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:700; color:#ffffff;&quot;&gt;Mobile NO.:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/images/images/new-user-icon-15.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>20</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700; color:#ffffff;&quot;&gt;USER ACCOUNT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>

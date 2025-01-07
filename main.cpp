@@ -102,20 +102,20 @@ bool verifyDataInserted(const QString &username) {
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
- // Admin loginScreen;
+  Admin loginScreen;
 
 
 //    MainWindow w;
-   secwin secw;
+//  secwin secw;
     Dialog d;
     d.exec();
-//    loginScreen.exec();
+    loginScreen.exec();
 
 
 
-     secw.show();
-    Admin adm;
-     formreg reg;
+//     secw.show();
+//    Admin adm;
+ //    formreg reg;
 
     return a.exec();
 }

@@ -2,6 +2,9 @@
 #include "ui_secwin.h"
 //#include "adminpanel.h"
 #include "schlserver.h"
+#include "stafflogin.h"
+
+class stafflogin;
 
 secwin::secwin(QWidget *parent)
     : QMainWindow(parent)
@@ -31,3 +34,36 @@ void secwin::on_pushButton_clicked()
 
 }
 */
+
+
+void secwin::on_dashboardui_clicked()
+{
+
+}
+
+
+void secwin::on_stafflogin_clicked()
+{
+    stafflogin *staff = new stafflogin();
+    staff->exec();
+}
+
+
+void secwin::on_actionExit_triggered()
+{
+
+    if(QMessageBox::Yes == QMessageBox(QMessageBox::Question,"Exit", "Are you sure you want to exit?",
+                                        QMessageBox::Yes|QMessageBox::No).exec())
+    {
+        this->loggedOut = true;
+        exit(EXIT_SUCCESS);
+    }
+
+}
+
+
+void secwin::on_actionStaff_Form_triggered()
+{
+
+}
+

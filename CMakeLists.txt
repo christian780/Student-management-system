@@ -41,8 +41,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         hashpass.h
         hashpass.cpp
         schlserver.h schlserver.cpp
-        regform_1.h regform_1.cpp regform_1.ui
         formreg.h formreg.cpp formreg.ui
+        stafflogin.h stafflogin.cpp stafflogin.ui
+        staffform.h staffform.cpp staffform.ui
+        sessionmanager.h sessionmanager.cpp
 
 
 

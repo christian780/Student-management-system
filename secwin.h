@@ -29,9 +29,19 @@ private slots:
 
 //    void on_label_3_linkActivated(const QString &link);
 
+
+    void on_dashboardui_clicked();
+
+    void on_stafflogin_clicked();
+
+    void on_actionExit_triggered();
+
+    void on_actionStaff_Form_triggered();
+
 private:
     Ui::secwin *ui;
     Admin *ad;
+     bool loggedOut;
 
 
 };

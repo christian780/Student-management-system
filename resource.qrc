@@ -11,7 +11,6 @@
         <file>images/user.png</file>
         <file>images/use2.jpg</file>
         <file>images/groups.jpg</file>
-        <file>images/invoice.jpg</file>
         <file>images/set2.jpg</file>
         <file>images/set3.png</file>
         <file>images/nairia.webp</file>
@@ -27,6 +26,27 @@
         <file>images/register.png</file>
         <file>images/stureg.webp</file>
         <file>images/navy.jpg</file>
+        <file>images/staffcard.png</file>
+        <file>images/staff login.png</file>
+        <file>images/stafflog.webp</file>
+        <file>images/adminbut.jpg</file>
+        <file>images/dashb.jpg</file>
+        <file>images/profile.jpg</file>
+        <file>images/result.png</file>
+        <file>images/receipt.jpg</file>
+        <file>images/attendance.jpg</file>
+        <file>images/remove acc.png</file>
+        <file>images/new-user-icon-15.jpg</file>
+        <file>images/rec.png</file>
+        <file>images/timetable.png</file>
+        <file>images/logout.jpg</file>
+        <file>images/open-512.webp</file>
+        <file>images/save.webp</file>
+        <file>images/close.jpg</file>
+        <file>images/deacti.png</file>
+        <file>images/user_delete.png</file>
+        <file>images/events.png</file>
+        <file>images/remove-user-male.png</file>
     </qresource>
     <qresource prefix="/">
         <file>images/register.png</file>

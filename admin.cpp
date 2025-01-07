@@ -2,6 +2,7 @@
 #include "ui_admin.h"
 #include "hashpass.h"
 #include "adminpanel.h"
+#include "secwin.h"
 
 #include "regform.h"
 
@@ -65,13 +66,20 @@ void Admin::handleServerResponse()
     qDebug() << "Server response:" << response;
 
     if (response == "Authentication successful") {
+//       QString userType = QString(response).split(":")[1];
+
         QMessageBox::information(this, "Login Success", "Welcome Admin");
         // Transition to the next screen, such as the admin dashboard
         Adminpanel *adp = new Adminpanel();
         adp->show();
         this->close();
 
-    } else if( response == "Authentication failed"){
+    }else if(response == "client"){
+        secwin *clientWindow = new secwin();
+        clientWindow->show();
+        this->close();
+    }
+    else if( response == "Authentication failed"){
           QMessageBox::warning(this, "Login Failed", "Invalid username or password.");
 
     }else {
@@ -88,6 +96,8 @@ void Admin::handleServerResponse()
     }
 */
 }
+
+
 
 
 
@@ -113,7 +123,8 @@ void Admin::on_login_clicked()
 
 
     // Connect to the server and send the request
-    tcpSocket->connectToHost("127.0.0.1", 1234);
+   // socket->connectToHost(QHostAddress::LocalHost,8080);
+    tcpSocket->connectToHost(QHostAddress::LocalHost, 1234);
    if(tcpSocket->waitForConnected(3000)){
         if(tcpSocket->isWritable()){
            tcpSocket->write(request);
@@ -191,4 +202,71 @@ void Admin::displayError(QAbstractSocket::SocketError socketError)
 
 */
 
+/*
+void Admin::handleServerResponse()
+{
+    QByteArray response = tcpSocket->readAll();
+    qDebug() << "Server response:" << response;
 
+    if (response == "Authentication successful") {
+ //       QString userType = QString(response).split(":")[1];
+
+
+//        QMessageBox::information(this, "Login Success", "Welcome Admin");
+        // Transition to the next screen, such as the admin dashboard
+        Adminpanel *adp = new Adminpanel();
+        adp->show();
+        this->close();
+
+    } else if( response == "Authentication failed"){
+          QMessageBox::warning(this, "Login Failed", "Invalid username or password.");
+
+    }else {
+        QMessageBox::critical(this, "Error", "Unknown server response: " + QString(response));
+    }
+
+    // Disconnect after handling response
+     tcpSocket->disconnectFromHost();
+/*
+    if(tcpSocket->isOpen()){
+
+        tcpSocket->close();
+        qDebug()<< "connection closed";
+    }
+*/
+//}
+
+/*
+void Admin::handleServerResponse()
+{
+    QByteArray response = tcpSocket->readAll();
+    qDebug() << "Server response:" << response;
+
+    if (response == "Authentication successful:") {
+        QString userType = QString(response).split(":")[1];
+
+        if (userType == "admin") {
+            Adminpanel *adp = new Adminpanel();
+            adp->show();
+        }// else if (userType == "client" || userType == "staff") {
+            secwin *clientWindow = new secwin();
+            clientWindow->show();
+        //}
+
+        this->hide(); // Hide the login window
+    } else if (response == "Authentication failed") {
+        QMessageBox::warning(this, "Login Failed", "Invalid username or password.");
+    } else {
+        QMessageBox::critical(this, "Error", "Unknown server response: " + QString(response));
+    }
+
+    if(tcpSocket->isOpen()){
+
+        tcpSocket->close();
+        qDebug()<< "connection closed";
+    }
+
+
+}
+
+*/

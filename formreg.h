@@ -42,6 +42,7 @@ private:
     Ui::formreg *ui;
     Admin *ad;
     QTcpSocket *tcpSocket = nullptr;
+    QByteArray  studentImage;
 
 };
 
