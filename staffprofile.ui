@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StaffProfile</class>
+ <widget class="QDialog" name="StaffProfile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>819</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="PersonaInfo">
+      <attribute name="title">
+       <string>Emergency Contact Detail</string>
+      </attribute>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>390</y>
+         <width>80</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>50</y>
+         <width>191</width>
+         <height>24</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>80</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Affix Image</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>81</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/images/images/userprof.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>30</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Next of King Name</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_6">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>110</y>
+         <width>191</width>
+         <height>24</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>90</y>
+         <width>111</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Next of King Mobile</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>150</y>
+         <width>111</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Next of King Address</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_11">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>170</y>
+         <width>211</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_12">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>230</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>210</y>
+         <width>121</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Next of King Email</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>270</y>
+         <width>111</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Next of King City</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_13">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>290</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Personal Info</string>
+      </attribute>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>81</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/images/images/userprof.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>70</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/images/images/vect.jpg);
+
+border: 2px solid green;
+border-radius: 10px;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="firstname">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>60</y>
+         <width>191</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid blue;
+border-radius: 10px;
+</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lastname">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>110</y>
+         <width>191</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid blue;
+border-radius: 10px;
+</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="address">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>160</y>
+         <width>191</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid blue;
+border-radius: 10px;
+</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="city">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>210</y>
+         <width>191</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid blue;
+border-radius: 10px;
+</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="mobile">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>20</y>
+         <width>181</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid blue;
+border-radius: 10px;
+</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="DOB">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>70</y>
+         <width>181</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid blue;
+border-radius: 10px;
+</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_9">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>120</y>
+         <width>181</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid blue;
+border-radius: 10px;
+</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="Emailaddr">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>170</y>
+         <width>181</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid blue;
+border-radius: 10px;
+</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="submit">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>380</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/images/images/sub.webp);
+
+border: 2px solid green;
+border-radius: 10px</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>40</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Firstname</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>90</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Lastname</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>140</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Address</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>190</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>City</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="attach">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>220</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/images/images/957304.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>240</y>
+         <width>161</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Describe your descipline</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>0</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Mobile</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>50</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Date Of Birth</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="filePathEdit">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>220</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid blue;
+border-radius: 10px;
+</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="desciplinetext">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>260</y>
+         <width>251</width>
+         <height>131</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>100</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Postal Code</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>150</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Email Address</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>200</y>
+         <width>171</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Upload Documents(pdf, docx)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>270</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>State of Origin</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="StateComboBox">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>290</y>
+         <width>181</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid blue;
+border-radius: 10px;
+</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Abia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Adamawa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AkwaIbom</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Anambra</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bauchi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bayelsa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Benue</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Borno</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cross River</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Delta</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ebonyi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Edo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ekiti</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Enugu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gombe</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Imo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Jigawa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kaduna</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kastina</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kebbi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kogi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kwara</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lagos</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nasarawa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Niger</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ondo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ogun</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Osun</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Oyo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Plateau</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rivers</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sokoto</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Taraba</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yobe</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Zamfara</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>F.C.T(Federa Capital Territory)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

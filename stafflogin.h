@@ -31,6 +31,7 @@ signals:
 public slots:
     void on_login_clicked();
      void handleServerResponse();
+//    void connectToServer();
 
 
 private:

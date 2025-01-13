@@ -45,6 +45,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         stafflogin.h stafflogin.cpp stafflogin.ui
         staffform.h staffform.cpp staffform.ui
         sessionmanager.h sessionmanager.cpp
+        staffprofile.h staffprofile.cpp staffprofile.ui
 
 
 
@@ -78,7 +79,7 @@ endif()
 
 
 target_link_libraries(smp PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
-target_link_libraries(smp PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Sql Qt6::Network)
+target_link_libraries(smp PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Sql Qt6::Network Qt6::Gui)
 
 
 

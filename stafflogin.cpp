@@ -1,5 +1,8 @@
 #include "stafflogin.h"
 #include "ui_stafflogin.h"
+#include "staffprofile.h"
+
+class StaffProfile;
 
 stafflogin::stafflogin(QWidget *parent)
     : QDialog(parent)
@@ -37,8 +40,12 @@ void stafflogin::handleServerResponse()
     if (response == "STAFFADDED") {
         //       QString userType = QString(response).split(":")[1];
 
+        this->hide();
+
         QMessageBox::information(this, "Login Success", "Welcome");
         // Transition to the next screen, such as the admin dashboard
+        StaffProfile *staff = new StaffProfile();
+        staff->exec();
 
     }
     else if( response == "ERROR"){
