@@ -47,6 +47,11 @@
         <file>images/user_delete.png</file>
         <file>images/events.png</file>
         <file>images/remove-user-male.png</file>
+        <file>images/attach.png</file>
+        <file>images/957304.png</file>
+        <file>images/images1.jpg</file>
+        <file>images/vect.jpg</file>
+        <file>images/sub.webp</file>
     </qresource>
     <qresource prefix="/">
         <file>images/register.png</file>

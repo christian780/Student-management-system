@@ -5,6 +5,7 @@
 #include "regform.h"
 #include "schlserver.h"
 #include "formreg.h"
+#include "staffprofile.h"
 
 #include <QApplication>
 
@@ -14,6 +15,7 @@
 #include <QSqlError>
 #include <QDebug>
 
+class StaffProfile;
 class Admin;
 class formreg;
 /*

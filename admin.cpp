@@ -63,18 +63,23 @@ void Admin::handleResponse() {
 void Admin::handleServerResponse()
 {
     QByteArray response = tcpSocket->readAll();
+    QString welcomeMessage;
     qDebug() << "Server response:" << response;
 
-    if (response == "Authentication successful") {
+    if (response.startsWith("Authentication:")) {
 //       QString userType = QString(response).split(":")[1];
+         welcomeMessage = QString(response).section(':', 1).trimmed();
 
-        QMessageBox::information(this, "Login Success", "Welcome Admin");
+        QMessageBox::information(this, "Login Success:", welcomeMessage);
         // Transition to the next screen, such as the admin dashboard
         Adminpanel *adp = new Adminpanel();
         adp->show();
         this->close();
 
-    }else if(response == "client"){
+    }else if(response.startsWith("client:")){
+        welcomeMessage = QString(response).section(':', 1).trimmed();
+
+        QMessageBox::information(this, "Login Success:", welcomeMessage);
         secwin *clientWindow = new secwin();
         clientWindow->show();
         this->close();
